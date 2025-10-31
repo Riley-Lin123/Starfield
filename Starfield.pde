@@ -11,7 +11,7 @@ public void setup() {
   num[0] = new OddballParticle(250,250); // 
 }
 
-void draw() {
+public void draw() {
   background(0);
   fill(213, 75, 0);
   ellipse(250,250,100,100);
